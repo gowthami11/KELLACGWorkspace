@@ -1,4 +1,25 @@
+/*************************************************************************
+*
+*  FILE NAME    : assign09.c
+*
+*  DESCRIPTION  : swap the contents of first element
+*
+*  DATE             NAME       REFERENCE          REASON
+*-------------------------------------------------------------------------
+*  05-nov-2022    Gowthami    CG material       2D char array initialization
+*
+*  Copyright 2010, Aricent Technologies (Holdings) Ltd
+*
+**************************************************************************/
+
+/*************************************************************************
+*                               HEADER FILES
+*************************************************************************/
 #include <common.h>
+/*************************************************************************
+*                               MACROS
+*************************************************************************/
+#define MAX_LEN 20
 char arr[][MAX_LEN]={"user1","user2","user3","user4"};
 char* swap_elements(char arr1[][MAX_LEN], int index)
 {
