@@ -13,7 +13,7 @@ int main()
 		scanf("%d",&a[i]);
 	}
 	for(i=0;i<s;i++){
-		 for(j=0;j<s;j++){
+		 for(j=i+1;j<s;j++){
 			 if(a[i]>a[j]){
 				 temp=a[j];
 				 a[i]=a[j];
