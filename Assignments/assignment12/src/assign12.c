@@ -1,3 +1,20 @@
+/*************************************************************************
+*
+*  FILE NAME    : assign12.c
+*
+*  DESCRIPTION  :  Accoring to the requriements
+*
+*  DATE             NAME       REFERENCE          REASON
+*-------------------------------------------------------------------------
+*  05-nov-2022    Gowthami    CG material       2D char array initialization
+*
+*  Copyright 2010, Aricent Technologies (Holdings) Ltd
+*
+**************************************************************************/
+
+/*************************************************************************
+*                               HEADER FILES
+*************************************************************************/
 #include <common.h>
 void arrayDisplay(int array[],int count)
 {

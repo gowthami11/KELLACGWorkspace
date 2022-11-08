@@ -1,3 +1,16 @@
+/*************************************************************************
+*
+*  FILE NAME    : common.h
+*
+*  DESCRIPTION  : This file defines the function which sends external message for server
+*
+*  DATE             NAME       REFERENCE          REASON
+*-------------------------------------------------------------------------
+*  05-nov-2022    Gowthami    CG material       New program
+*
+*  Copyright 2010, Aricent Technologies (Holdings) Ltd
+*
+**************************************************************************/
 #include"common.h"
 #include<ctype.h>
 extern int Cmd_validate(char* word);

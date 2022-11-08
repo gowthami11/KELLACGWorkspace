@@ -1,6 +1,6 @@
 /*************************************************************************
 *
-*  FILE NAME    : assign09.c
+*  FILE NAME    : common.h
 *
 *  DESCRIPTION  : This file defines the function which sends external message for server
 *
@@ -11,6 +11,8 @@
 *  Copyright 2010, Aricent Technologies (Holdings) Ltd
 *
 **************************************************************************/
+#ifndef COMMON_H
+#define COMMON_H
 
 /*************************************************************************
 *                               HEADER FILES
@@ -19,3 +21,5 @@
 #include <string.h>
 #include <stdlib.h>
 
+
+#endif
